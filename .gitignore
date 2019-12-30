@@ -2,6 +2,9 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+
+*.sublime-project
+*.sublime-workspace
 sftp-config.json
 
 

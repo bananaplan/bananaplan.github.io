@@ -118,7 +118,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -127,12 +127,12 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
+    clientID    : d100d83060d7196f6a0d # GitHub Application Client ID
+    clientSecret: 7c75da49461ace20ae2e78a0ad4ce77f8055a069 # GitHub Application Client Secret
+    repository  : bananaplan.github.io # GitHub repo
+    owner       : bananaplan # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
+      - bananaplan
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
